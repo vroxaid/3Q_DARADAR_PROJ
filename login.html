@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-in</title>
+    <link rel="stylesheet" href="style_login.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="header">Gender Equality: Women Empowerment</h1>
+    </header>
+    <div id="about">
+        <h1 class="abt">We are the global champion for gender equality.</h1>
+        <p>UN Women is the UN organization delivering programmes, policies and standards that uphold women’s human rights and ensure that every woman and girl lives up to her full potential.</p>
+    </div>
+    <div class="container">
+        <div>
+            <p id="error">Please enter your details:</p>
+            <label for="uname" class="inputs"><b>Username</b></label>
+            <input type="text" class="inputs" id="username" placeholder="Enter Username" name="uname" required>
+        </br>
+            <label for="psw" class="inputs"><b>Password</b></label>
+            <input type="password" class="inputs" id="password" placeholder="Enter Password" name="psw" required>
+        </br>
+            <button type="submit" class="buttonss" onclick="loginPage()">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </div>
+        <div id="cancel">
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+    </div>
+    <a href="https://www.instagram.com/m1ckenzy/">
+        <img class="instagram" height=1 width=1>
+    </a>
+    <a href="https://www.facebook.com/mickaellahtessa.daradar">
+        <img class="facebook" height=1 width=1>
+    </a>
+</body>
+</html>
